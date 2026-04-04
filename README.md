@@ -65,3 +65,10 @@ Tipo de Teste | Manual |
 ---
 
 # 📁 Estrutura do Projeto
+
+.
+├── README.md
+├── test-plan
+│   └── test-plan.md
+└── test-cases
+    └── web-test-cases.md
