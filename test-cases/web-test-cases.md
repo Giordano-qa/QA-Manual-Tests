@@ -1,77 +1,98 @@
-# Test Cases - Login
+# Test Cases - Testes Manuais em Sites Públicos
 
 ---
 
-## CT-01: Login com senha inválida
+## CT-01: Validação de busca de produto - Mercado Livre
+
 **Prioridade:** Alta  
 **Severidade:** Alta  
 **Tipo de teste:** Funcional  
 
 **Passos:**
-1. Acessar página de login
-2. Inserir email válido
-3. Inserir senha incorreta
-4. Clicar em "Entrar"
+1. Acessar o site
+2. Buscar por "notebook"
+3. Validar os resultados exibidos
+4. Aplicar filtros (marca, preço)
+5. Ordenar por menor preço
 
 **Resultado esperado:**
-Sistema deve exibir mensagem informando senha inválida
+- Sistema deve exibir produtos relacionados a "notebook"
+- Resultados devem ser relevantes
+- Filtros devem ser aplicados corretamente
+- Ordenação deve respeitar o critério selecionado
+
+**Evidência:**
+(ADICIONAR AQUI DEPOIS)
 
 ---
 
-## CT-02: Validação de email inválido
+## CT-02: Validação de interface - Amazon
+
 **Prioridade:** Média  
 **Severidade:** Média  
-**Tipo de teste:** Funcional  
+**Tipo de teste:** UI / Usabilidade  
 
 **Passos:**
-1. Inserir email em formato inválido
-2. Inserir senha válida
-3. Clicar em "Entrar"
+1. Acessar o site
+2. Verificar barra de busca, menu e login
+3. Validar alinhamento e espaçamento
+4. Verificar banners e carrosséis
+5. Testar menu dropdown
 
 **Resultado esperado:**
-Sistema deve exibir mensagem informando email inválido
+- Elementos devem estar alinhados corretamente
+- Interface deve ser consistente
+- Componentes devem carregar corretamente
+- Menu deve funcionar conforme esperado
+
+**Evidência:**
+(ADICIONAR AQUI DEPOIS)
 
 ---
 
-## CT-03: Validação de senha vazia
+## CT-03: Validação de formulário - LinkedIn
+
 **Prioridade:** Alta  
 **Severidade:** Alta  
 **Tipo de teste:** Funcional  
 
 **Passos:**
-1. Inserir email válido
-2. Deixar senha em branco
-3. Clicar em "Entrar"
+1. Acessar página de cadastro
+2. Inserir email inválido
+3. Deixar campos vazios
+4. Inserir senha fora do padrão
+5. Tentar continuar cadastro
 
 **Resultado esperado:**
-Sistema deve exibir mensagem de campo obrigatório
+- Sistema deve validar email
+- Sistema deve exigir preenchimento dos campos
+- Sistema deve validar regras de senha
+- Cadastro não deve prosseguir com dados inválidos
+
+**Evidência:**
+(ADICIONAR AQUI DEPOIS)
 
 ---
 
-## CT-04: Validação de email vazio
+## CT-04: Validação de login - Magazine Luiza
+
 **Prioridade:** Alta  
 **Severidade:** Alta  
 **Tipo de teste:** Funcional  
 
 **Passos:**
-1. Deixar email em branco
-2. Inserir senha válida
-3. Clicar em "Entrar"
+1. Inserir email válido + senha incorreta
+2. Inserir email inválido
+3. Deixar senha vazia
+4. Deixar email vazio
+5. Testar opção "mostrar senha"
+6. Testar limite mínimo de senha
 
 **Resultado esperado:**
-Sistema deve exibir mensagem solicitando email
+- Sistema deve validar credenciais
+- Deve exibir mensagens de erro apropriadas
+- Campos obrigatórios devem ser validados
+- Funcionalidade de mostrar senha deve funcionar corretamente
 
----
-
-## CT-05: Funcionalidade mostrar senha
-**Prioridade:** Baixa  
-**Severidade:** Baixa  
-**Tipo de teste:** Usabilidade  
-
-**Passos:**
-1. Inserir senha
-2. Clicar em "mostrar senha"
-
-**Resultado esperado:**
-Sistema deve exibir senha em texto visível
-
+**Evidência:**
+(ADICIONAR AQUI DEPOIS)
