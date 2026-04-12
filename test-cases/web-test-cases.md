@@ -95,4 +95,7 @@
 - Funcionalidade de mostrar senha deve funcionar corretamente
 
 **Evidência:**
-(ADICIONAR AQUI DEPOIS)
+
+![Busca de produtos](../evidencias/CT-01-busca-resultados.png)
+![Filtro aplicado](../evidencias/CT-01-filtro-aplicado.png)
+![Ordenação por preço](../evidencias/CT-01-ordenacao-preco.png)
