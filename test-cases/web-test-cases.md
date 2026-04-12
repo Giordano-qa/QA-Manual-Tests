@@ -96,6 +96,6 @@
 
 **Evidência:**
 
-![Busca de produtos](../evidencias/CT-01-busca-resultados.png)
-![Filtro aplicado](../evidencias/CT-01-filtro-aplicado.png)
-![Ordenação por preço](../evidencias/CT-01-ordenacao-preco.png)
+![Busca de produtos](../evidências/CT-01-busca-resultados.png)
+![Filtro aplicado](../evidências/CT-01-filtro-aplicado.png)
+![Ordenação por preço](../evidências/CT-01-ordenacao-preco.png)
