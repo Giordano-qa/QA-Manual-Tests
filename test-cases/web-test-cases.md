@@ -22,7 +22,12 @@
 - Ordenação deve respeitar o critério selecionado
 
 **Evidência:**
-(ADICIONAR AQUI DEPOIS)
+
+![Busca de produtos](../evidencias/CT-01-busca-resultados.png)
+
+![Filtro aplicado](../evidencias/CT-01-filtro-aplicado.png)
+
+![Ordenação por preço](../evidencias/CT-01-ordenacao-preco.png)
 
 ---
 
@@ -96,6 +101,3 @@
 
 **Evidência:**
 
-![Busca de produtos](../evidencias/CT-01-busca-resultados.png)
-![Filtro aplicado](../evidencias/CT-01-filtro-aplicado.png)
-![Ordenação por preço](../evidencias/CT-01-ordenacao-preco.png)
