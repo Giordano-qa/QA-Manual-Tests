@@ -31,28 +31,31 @@
 
 ---
 
-## CT-02: Validação de interface - Amazon
+CT-02: Abertura do menu lateral
 
-**Prioridade:** Média  
-**Severidade:** Média  
-**Tipo de teste:** UI / Usabilidade  
+Prioridade: Média  
+Severidade: Média  
+Tipo de teste: Usabilidade / Interface  
 
-**Passos:**
-1. Acessar o site
-2. Verificar barra de busca, menu e login
-3. Validar alinhamento e espaçamento
-4. Verificar banners e carrosséis
-5. Testar menu dropdown
+Passos:
 
-**Resultado esperado:**
-- Elementos devem estar alinhados corretamente
-- Interface deve ser consistente
-- Componentes devem carregar corretamente
-- Menu deve funcionar conforme esperado
+1. Acessar a página inicial da Amazon
+2. Clicar no menu "Todos"
+3. Observar a abertura do menu lateral
 
-**Evidência:**
-(ADICIONAR AQUI DEPOIS)
+Resultado esperado:
 
+- O menu lateral deve abrir corretamente
+- As categorias devem ser exibidas
+- O layout deve estar organizado e legível
+
+Evidência:
+
+![Menu lateral aberto](../evidencias/CT-02-menu-lateral.png)
+
+![Categorias exibidas](../evidencias/CT-02-categorias.png)
+
+![Interação com menu](../evidencias/CT-02-interacao.png)
 ---
 
 ## CT-03: Validação de formulário - LinkedIn
