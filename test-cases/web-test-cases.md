@@ -58,49 +58,71 @@ Evidência:
 ![Interação com menu](../evidencias/CT-02-interacao.png)
 ---
 
-## CT-03: Validação de formulário - LinkedIn
+CT-03: Validação de email inválido no cadastro(Linkedin)
 
-**Prioridade:** Alta  
-**Severidade:** Alta  
-**Tipo de teste:** Funcional  
+Prioridade: Alta  
+Severidade: Média  
+Tipo de teste: Funcional  
 
-**Passos:**
-1. Acessar página de cadastro
-2. Inserir email inválido
-3. Deixar campos vazios
-4. Inserir senha fora do padrão
-5. Tentar continuar cadastro
+Passos:
 
-**Resultado esperado:**
-- Sistema deve validar email
-- Sistema deve exigir preenchimento dos campos
-- Sistema deve validar regras de senha
-- Cadastro não deve prosseguir com dados inválidos
+1. Acessar a página de cadastro do LinkedIn
+2. Inserir um email inválido (ex: giordanocaruso)
+3. Clicar em "Aceite e cadastre-se"
 
-**Evidência:**
-(ADICIONAR AQUI DEPOIS)
+Resultado esperado:
+
+- O sistema deve exibir mensagem de erro informando email inválido
+- O campo deve ser destacado visualmente (ex: borda vermelha)
+
+Evidência:
+
+![Email inválido](../evidencias/CT-03-email-invalido.png)
 
 ---
 
-## CT-04: Validação de login - Magazine Luiza
+CT-04: Validação de campos obrigatórios vazios(Linkedin)
 
-**Prioridade:** Alta  
-**Severidade:** Alta  
-**Tipo de teste:** Funcional  
+Prioridade: Alta  
+Severidade: Alta  
+Tipo de teste: Funcional  
 
-**Passos:**
-1. Inserir email válido + senha incorreta
-2. Inserir email inválido
-3. Deixar senha vazia
-4. Deixar email vazio
-5. Testar opção "mostrar senha"
-6. Testar limite mínimo de senha
+Passos:
 
-**Resultado esperado:**
-- Sistema deve validar credenciais
-- Deve exibir mensagens de erro apropriadas
-- Campos obrigatórios devem ser validados
-- Funcionalidade de mostrar senha deve funcionar corretamente
+1. Acessar a página de cadastro do LinkedIn
+2. Deixar os campos de email e senha vazios
+3. Clicar em "Aceite e cadastre-se"
 
-**Evidência:**
+Resultado esperado:
 
+- O sistema deve exibir mensagens informando que os campos são obrigatórios
+- Os campos devem ser destacados visualmente
+
+Evidência:
+
+![Campos vazios](../evidencias/CT-04-campos-vazios.png)
+
+
+---
+
+CT-05: Validação de senha com baixo nível de segurança
+
+Prioridade: Alta  
+Severidade: Média  
+Tipo de teste: Funcional  
+
+Passos:
+
+1. Acessar a página de cadastro do LinkedIn
+2. Inserir um email válido
+3. Inserir uma senha fraca (ex: 123456)
+4. Clicar em "Aceite e cadastre-se"
+
+Resultado esperado:
+
+- O sistema deve exibir mensagem informando que a senha não atende aos requisitos de segurança
+- O usuário não deve conseguir prosseguir com o cadastro
+
+Evidência:
+
+![Senha fraca](../evidencias/CT-05-senha-fraca.png)
