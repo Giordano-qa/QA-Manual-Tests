@@ -126,3 +126,122 @@ Resultado esperado:
 Evidência:
 
 ![Senha fraca](../evidencias/CT-05-senha-fraca.png)
+
+---
+
+CT-06: Login com senha inválida
+
+Prioridade: Alta  
+Severidade: Alta  
+Tipo de teste: Funcional  
+
+Passos:
+1. Acessar página de login do Magazine Luiza
+2. Inserir e-mail válido
+3. Inserir senha incorreta
+4. Clicar em "Continuar"
+
+Resultado esperado:
+- O sistema deve exibir mensagem de erro informando credenciais inválidas
+- O login não deve ser realizado
+
+Evidência:
+![Senha inválida](../evidencias/CT-06-senha-invalida.png)
+
+---
+
+CT-07: Login com e-mail inválido
+
+Prioridade: Alta  
+Severidade: Média  
+Tipo de teste: Funcional  
+
+Passos:
+1. Acessar página de login
+2. Inserir e-mail sem formato válido (sem "@")
+3. Clicar em "Continuar"
+
+Resultado esperado:
+- O sistema deve validar o formato do e-mail
+- Deve exibir mensagem de erro apropriada
+
+Evidência:
+![Email inválido](../evidencias/CT-07-email-invalido.png)
+
+---
+
+CT-08: Validação de campo senha obrigatório
+
+Prioridade: Alta  
+Severidade: Média  
+Tipo de teste: Funcional  
+
+Passos:
+1. Inserir e-mail válido
+2. Deixar o campo senha vazio
+3. Clicar em "Continuar"
+
+Resultado esperado:
+- O sistema deve exigir preenchimento do campo senha
+- Deve exibir mensagem de erro
+
+Evidência:
+![Senha vazia](../evidencias/CT-08-senha-vazia.png)
+
+---
+
+CT-09: Validação de campo e-mail obrigatório
+
+Prioridade: Alta  
+Severidade: Média  
+Tipo de teste: Funcional  
+
+Passos:
+1. Deixar o campo e-mail vazio
+2. Inserir senha válida
+3. Clicar em "Continuar"
+
+Resultado esperado:
+- O sistema deve exigir preenchimento do campo e-mail
+- Deve exibir mensagem de erro
+
+Evidência:
+![Email vazio](../evidencias/CT-09-email-vazio.png)
+
+---
+
+CT-10: Funcionalidade mostrar/ocultar senha
+
+Prioridade: Média  
+Severidade: Baixa  
+Tipo de teste: Usabilidade  
+
+Passos:
+1. Inserir uma senha no campo
+2. Clicar no ícone de visualização (olho)
+
+Resultado esperado:
+- A senha deve alternar entre visível e oculta corretamente
+
+Evidência:
+![Mostrar senha](../evidencias/CT-10-mostrar-senha.png)
+
+---
+
+CT-11: Validação de tamanho mínimo de senha
+
+Prioridade: Média  
+Severidade: Média  
+Tipo de teste: Funcional  
+
+Passos:
+1. Inserir e-mail válido
+2. Inserir senha abaixo do limite mínimo
+3. Clicar em "Continuar"
+
+Resultado esperado:
+- O sistema deve impedir login com senha inválida
+- Deve exibir mensagem clara sobre o requisito de senha
+
+Evidência:
+![Senha curta](../evidencias/CT-11-senha-curta.png)
