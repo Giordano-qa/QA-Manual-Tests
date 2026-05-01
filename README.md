@@ -1,74 +1,120 @@
-# 🧪 Testes Manuais de Controle de Qualidade (QA)
+# 🧪 QA Manual Testing Portfolio | DevGB
 
-Este repositório contém exercícios práticos de **testes manuais de software**, incluindo criação de **casos de teste**, **validação de formulários** e **análise de comportamento de interfaces web**.
+Este repositório apresenta a execução completa de testes manuais em aplicações web reais, com foco em validação funcional, análise de comportamento e documentação profissional de QA.
 
-O objetivo deste projeto é praticar conceitos fundamentais de **Quality Assurance (QA)** aplicados a aplicações web reais.
-
----
-
-# 🎯 Objetivo
-
-Praticar técnicas de testes manuais como:
-
-- Criação de **casos de teste**
-- Validação de **campos de formulário**
-- Testes de **interface**
-- Testes de **busca**
-- Registro de **resultados esperados vs resultados encontrados**
+Mais do que exercícios, este projeto simula o dia a dia de um QA, incluindo planejamento, execução e reporte de testes.
 
 ---
 
-# 🌐 Sites Utilizados nos Testes
+## 👨‍💻 Sobre mim
 
-Os testes foram realizados em plataformas públicas:
+Sou um profissional em transição para a área de **Quality Assurance (QA)**, com foco em testes manuais.
 
-- Mercado Livre  
-- Amazon
-- LinkedIn  
-- Magazine Luiza  
+Este projeto foi criado para demonstrar, na prática, minha capacidade de:
 
----
-
-# 📋 Casos de Teste
-
-Os testes incluem cenários como:
-
-### Busca de produtos
-- validação da barra de pesquisa
-- verificação de resultados relevantes
-
-### Validação de formulários
-- e-mail inválido
-- campos vazios
-- senha inválida
-
-### Testes de login
-- senha incorreta
-- e-mail inválido
-- validação de mensagens de erro
-
-### Testes de interface
-- verificação de layout
-- alinhamento de elementos
-- consistência visual
+* Pensar como QA
+* Identificar cenários de teste relevantes
+* Documentar testes de forma clara e estruturada
+* Analisar comportamento de sistemas reais
 
 ---
 
-# ⚙️ Ambiente de Teste
+## 🎯 Objetivo do Projeto
 
-| Item | Configuração |
-|-----|--------------|
-Navegador | Google Chrome |
-Sistema Operacional | Windows 10 |
-Tipo de Teste | Manual |
+Aplicar conceitos fundamentais de QA em cenários reais:
+
+* Criação de **Test Plan**
+* Escrita de **Test Cases**
+* Execução de testes manuais
+* Registro de **evidências**
+* Comparação entre resultado esperado vs. obtido
+* Elaboração de **Test Report**
 
 ---
 
-# 📁 Estrutura do Projeto
+## 🌐 Sistemas Testados
 
-.
-├── README.md
-├── test-plan
-│   └── test-plan.md
-└── test-cases
-    └── web-test-cases.md
+Testes realizados em plataformas reais:
+
+* Mercado Livre
+* Amazon
+* LinkedIn
+* Magazine Luiza
+
+---
+
+## 📋 Escopo dos Testes
+
+### 🔍 Funcionalidades testadas
+
+* Busca de produtos
+* Validação de formulários
+* Login e autenticação
+* Mensagens de erro
+* Regras de validação (email, senha)
+
+### 🎨 Interface (UI)
+
+* Layout
+* Feedback visual (erros, validações)
+* Consistência da interface
+
+---
+
+## 📁 Estrutura do Projeto
+
+QA-Manual-Tests/
+├── evidencias/ → Prints dos testes executados
+├── test-plan/ → Planejamento de testes
+├── test-cases/ → Casos de teste detalhados
+├── test-report.md → Relatório de execução
+└── README.md
+
+---
+
+## 📊 Resultados
+
+Os resultados completos dos testes estão documentados em:
+
+➡️ **test-report.md**
+
+Incluindo:
+
+* Status dos testes (Pass/Fail)
+* Evidências
+* Análise dos cenários
+
+---
+
+## ⚙️ Ambiente de Teste
+
+| Item                | Configuração  |
+| ------------------- | ------------- |
+| Navegador           | Google Chrome |
+| Sistema Operacional | Windows 10    |
+| Tipo de Teste       | Manual        |
+
+---
+
+## 🚀 Diferenciais deste projeto
+
+* Testes realizados em sistemas reais (não simulados)
+* Documentação completa de QA
+* Organização profissional (GitHub + estrutura)
+* Evidências reais de execução
+
+---
+
+## 📈 Próximos Passos
+
+* Criar mais cenários de teste
+* Aprender automação (Selenium / Cypress)
+* Integrar testes com CI/CD
+* Aprimorar técnicas de teste exploratório
+
+---
+
+## 📬 Contato
+
+Se quiser trocar ideia sobre QA ou oportunidades, estou aberto a conexões no LinkedIn 🚀
+
